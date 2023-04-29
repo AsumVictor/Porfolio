@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
+    <header class="justify-between">
       <div id="logo-placeholder"></div>
       <div id="humberger">
         <div id="top-bar"></div>
@@ -18,20 +19,29 @@
       </div>
     </header>
     <main>
-      <div id="hero-section">
+      <section id="hero-section" class="display-flex-col">
         <h1 class="text-center">
           <span class="text-primary"> Hey there. I’m AiAsum. </span> <br />
-          <span class="text-green"> Hey there. I’m AiAsum. </span>
+          <span class="text-green"> I’m a software developer </span>
         </h1>
-        <p id="hero-text" class="text-center padding-20-px font-23-px text-primary">
+        <p id="hero-text" class="text-center padding-20-px font-20-px text-primary">
           I can help you build a product , feature or website Look through some
           of my work and experience! If you like what you see and have a project
           you need coded, don’t hesitate to contact me.
         </p>
-        <ul class="display-flex-row list-style-none">
-            <li>kk</li>
+        <ul class="display-flex-row-wrap justify-center font-23-px text-primary list-style-none flex-gap-5 ">
+            <i class="fa fa-twitter "></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-medium"></i>
+            <i class="fa fa-github"></i>
+            <i class="fa fa-angellist"></i>
         </ul>
-      </div>
+        <button id="call-to-action" class="font-23-px margin-top-5 self-center">
+            <i class='fa fa-angle-down'></i>
+        </button>
+      </section>
     </main>
+
+    
   </body>
 </html>
