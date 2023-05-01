@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+#humberger {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 5px 0 5px;
+}
+
+#top-bar,
+#middle-bar,
+#bottom-bar {
+  width: 30px;
+  height: 3px;
+  background-color: #28352f;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  vertical-align: top;
+  padding: 20px;
+}
+
+#hero-section {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-image: url('./images/header-illsutration-mobile.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#hero-text {
+  font-weight: 400;
+  line-height: 28px;
+}
+
+#call-to-action {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: white;
+  outline: none;
+  border: 2px solid #dfe1e6;
+}
+
+.text-primary {
+  color: #172b4d;
+}
+
+.text-green {
+  color: #36b37e;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padding-20-px {
+  padding: 20px;
+}
+
+.font-20-px {
+  font-size: 20px;
+}
+
+.font-23-px {
+  font-size: 23px;
+}
+
+.display-flex-row-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-gap-5 {
+  gap: 24px;
+}
+
+.display-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.margin-top-5 {
+  margin-top: 5rem;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.w-full {
+  width: 100%;
+}
