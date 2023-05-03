@@ -46,7 +46,7 @@ h1 {
   padding-bottom: 1rem;
   background-image: url('./images/header-illsutration-mobile.png');
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 #hero-text {
@@ -61,6 +61,84 @@ h1 {
   background-color: white;
   outline: none;
   border: 2px solid #dfe1e6;
+}
+
+#card-container{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  padding: 10px;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, 327px);
+}
+
+.card{
+  position: relative;
+  width: 327px;
+  height: 474px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 10px;
+  background-color: #EBF0EE;
+  border: 1px solid #D0D9D4;
+}
+
+.image-placeholder{
+  width: 100%;
+  top: 0px;
+  position: absolute;
+  left: 0px;
+  height: 100%;
+}
+
+.card-content{
+  width: 100%;
+  height: 230px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: white;
+  z-index: 1;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.project-title{
+  font-size: 24px;
+  color: #3A4A42;
+  padding: 0px 10px 0px 10px;
+  margin-top: 5px;
+}
+
+.tag-language-container{
+  display: inline-flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tag-language{
+  padding: 7px;
+  background-color: #EBF0EE;
+  color: #3A4A42;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.project-action{
+  background-color: #36B37F;
+  color: white;
+  font-size: 20px;
+  outline-width: 0px;
+  font-weight: 700;
+  align-self: center;
+  padding: 15px;
+  border-radius: 10px;
+  border: 0;
 }
 
 .text-primary {
@@ -128,4 +206,8 @@ h1 {
 
 .w-full {
   width: 100%;
+}
+
+.text-capitalize{
+  text-transform: capitalize;
 }
