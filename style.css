@@ -72,6 +72,60 @@ h1 {
   grid-template-columns: repeat(auto-fill, 327px);
 }
 
+#about-me-text{
+  background-image: url('./images/about-me-mobile.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  gap: 20px;
+  background-size: cover;
+  background-position: 100%;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#about-me-text h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #172B4D;
+}
+
+#about-me-text p{
+  font-size: 20px;
+  font-weight: 500;
+  color: #42526E;
+  padding: 0px 20px 0px 20px;
+  text-align: center;
+}
+
+#about-me-text button{
+  background-color: #36B37F;
+  color: white;
+  font-size: 20px;
+  outline-width: 0px;
+  font-weight: 400;
+  align-self: center;
+  padding: 15px;
+  border-radius: 10px;
+  border: 0;
+}
+
+#about-me-skills{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  padding: 10px;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, 327px);
+}
+
+#about-me-skills h4{
+  color: #344563 ;
+  font-size: 24px;
+  margin-top: -10px;
+}
+
 .card{
   position: relative;
   width: 327px;
@@ -83,6 +137,20 @@ h1 {
   border-radius: 10px;
   background-color: #EBF0EE;
   border: 1px solid #D0D9D4;
+}
+
+.skill-card{
+  width: 327px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #EBF0EE;
+  border: 1px solid #D0D9D4;
+  gap: 15px;
+  padding: 25px 0px 25px 0px;
 }
 
 .image-placeholder{
@@ -119,7 +187,13 @@ h1 {
   flex-wrap: wrap;
   gap: 12px;
 }
-
+.skill-language-container{
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 10px;
+}
 .tag-language{
   padding: 7px;
   background-color: #EBF0EE;
@@ -139,6 +213,16 @@ h1 {
   padding: 15px;
   border-radius: 10px;
   border: 0;
+}
+
+.skill-language{
+  padding: 12px;
+  background-color: white;
+  color: #36B37E;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .text-primary {
