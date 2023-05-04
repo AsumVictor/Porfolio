@@ -43,7 +43,10 @@
 
 - **Navigation bar with Logo**
 - **Hero section and Social media links**
-
+- **Work section: It contains my recent works**
+- **About me section which contains information about me including resume**
+- **Contact form**
+- **Footer**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -107,9 +110,8 @@ Github pages depolyment
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--  **Section to show my resume**
--  **Section to show languages that I have learned**
--  **Contact form to contact me**
+-  **Toggle navigation**
+-  **Able to open each project**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
