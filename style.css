@@ -16,6 +16,22 @@ nav {
   padding: 0 10px 0 10px;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+address a{
+ text-decoration: none;
+ color: #42526E;
+ font-size: 20px;
+ font-weight: 900;
+}
+
 #humberger {
   display: inline-block;
   cursor: pointer;
@@ -61,6 +77,13 @@ h1 {
   background-color: white;
   outline: none;
   border: 2px solid #dfe1e6;
+}
+
+#work-section h2{
+font-size: 40px;
+text-align: center;
+color: #172B4D;
+padding: 30px;
 }
 
 #card-container{
@@ -131,13 +154,16 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
 }
 
 #contact-section p{
  font-size: 30px;
  font-weight: bold;
- padding: 0 15px 0 15px;
+ padding: 0 25px 0 25px;
  width: 100%;
+ text-align: center;
 }
 
 #form{
