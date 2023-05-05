@@ -66,11 +66,14 @@ button:active {
 }
 
 h1 {
-  font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   vertical-align: top;
   padding: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 #hero-section {
@@ -82,8 +85,12 @@ h1 {
 }
 
 #hero-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
   font-weight: 400;
   line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 #call-to-action {
