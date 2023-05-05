@@ -76,7 +76,7 @@ h1 {
 #hero-section {
   padding-top: 3rem;
   padding-bottom: 1rem;
-  background-image: url('./images/header-illsutration-mobile.png');
+  background-image: url("./images/header-illsutration-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -112,14 +112,13 @@ h1 {
 }
 
 #about-me-text {
-  background-image: url('./images/about-me-mobile.png');
+  background-image: url("./images/about-me-mobile.png");
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0 20px 0;
   gap: 20px;
-  background-size: cover;
-  background-position: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-bottom: 20px;
   width: 100%;
 }
@@ -132,22 +131,33 @@ h1 {
 
 #about-me-text p {
   font-size: 20px;
-  font-weight: 500;
   color: #42526e;
   padding: 0 20px 0 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
   text-align: center;
 }
 
 #about-me-text button {
   background-color: #36b37f;
   color: white;
-  font-size: 20px;
   outline-width: 0;
-  font-weight: 400;
   align-self: center;
-  padding: 15px;
-  border-radius: 10px;
   border: 0;
+  height: 48px;
+  width: 153px;
+  left: 99px;
+  top: 290px;
+  border-radius: 4px;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 #about-me-skills {
@@ -161,8 +171,12 @@ h1 {
 
 #about-me-skills h4 {
   color: #344563;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
-  margin-top: -10px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 #contact-section {
@@ -237,11 +251,14 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 10px;
   background-color: #ebf0ee;
   border: 1px solid #d0d9d4;
   gap: 15px;
   padding: 25px 0 25px 0;
+  height: 316px;
+  left: 0;
+  top: 1px;
+  border-radius: 0;
 }
 
 .image-placeholder {
@@ -254,29 +271,35 @@ h1 {
 
 .card-content {
   width: 100%;
-  height: 230px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   z-index: 1;
-  padding: 2px;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  height: 230px;
+  border-radius: 8px;
 }
 
 .project-title {
-  font-size: 24px;
   color: #3a4a42;
   padding: 0 10px 0 10px;
   margin-top: 5px;
+  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 .tag-language-container {
-  display: inline-flex;
-  justify-content: start;
-  flex-wrap: wrap;
-  gap: 12px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 8px;
+  width: 100%;
+  padding-left: 0;
 }
 
 .skill-language-container {
@@ -288,34 +311,47 @@ h1 {
 }
 
 .tag-language {
-  padding: 7px;
+  padding: 8px 12px 8px 12px;
   background-color: #ebf0ee;
   color: #3a4a42;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 5px;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 
 .project-action {
   background-color: #36b37f;
   color: white;
-  font-size: 20px;
   outline-width: 0;
-  font-weight: 700;
   align-self: center;
-  padding: 15px;
-  border-radius: 10px;
   border: 0;
+  height: 48px;
+  width: 122px;
+  border-radius: 4px;
+  padding: 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .skill-language {
-  padding: 12px;
   background-color: white;
   color: #36b37e;
+  border-radius: 8px;
+  padding: 12px;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
-  font-weight: bold;
-  border-radius: 5px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 
 .text-primary {
@@ -393,7 +429,7 @@ h1 {
   #hero-section {
     padding-top: 3rem;
     padding-bottom: 5rem;
-    background-image: url('./images/Header-llustration-desktop.svg');
+    background-image: url("./images/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
     background-position: -100px top;
     margin-bottom: 6rem;
@@ -489,6 +525,5 @@ h1 {
     font-size: 15px;
     color: #344563;
     font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 }
