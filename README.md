@@ -50,7 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+The project has not been deployed yet. 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
