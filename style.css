@@ -97,9 +97,13 @@ h1 {
 
 #work-section h2 {
   font-size: 40px;
-  text-align: center;
   color: #172b4d;
   padding: 30px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 #card-container {
@@ -111,26 +115,31 @@ h1 {
   grid-template-columns: repeat(auto-fill, 327px);
 }
 
-#about-me-text {
+#about-me {
   background-image: url("./images/about-me-mobile.png");
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-bottom: 20px;
-  width: 100%;
+  gap: 24px;
+  height: 1522px;
+  border-radius: 0;
+  padding: 40px 24px 64px 24px;
+  column-gap: 10px;
+  margin-top: 24px;
 }
 
-#about-me-text h2 {
+#about-me h2 {
   font-size: 40px;
-  font-weight: bold;
   color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
 }
 
-#about-me-text p {
-  font-size: 20px;
+#about-me p {
+  font-size: 18px;
   color: #42526e;
   padding: 0 20px 0 20px;
   font-family: 'Inter', sans-serif;
@@ -140,7 +149,7 @@ h1 {
   text-align: center;
 }
 
-#about-me-text button {
+#about-me button {
   background-color: #36b37f;
   color: white;
   outline-width: 0;
@@ -167,6 +176,7 @@ h1 {
   padding: 10px;
   gap: 15px;
   grid-template-columns: repeat(auto-fill, 327px);
+  margin-top: 58px;
 }
 
 #about-me-skills h4 {
@@ -184,16 +194,21 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
-  margin-top: 20px;
+  gap: 58px;
+  height: 879px;
+  border-radius: 0;
+  padding: 64px 24px 64px 24px;
 }
 
 #contact-section p {
-  font-size: 30px;
-  font-weight: bold;
   padding: 0 25px 0 25px;
   width: 100%;
   text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
 }
 
 #form {
@@ -203,7 +218,7 @@ h1 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 24px;
 }
 
 #form input {
@@ -220,15 +235,20 @@ h1 {
 }
 
 #form button {
-  padding: 10px 10px 10px 10px;
-  border-radius: 15px;
   width: 129px;
   height: 48px;
-  font-size: 17px;
   border: none;
   background-color: #36b37f;
   color: white;
   align-self: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border-radius: 4px;
+  padding: 12px;
 }
 
 .card {
