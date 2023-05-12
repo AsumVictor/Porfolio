@@ -104,6 +104,10 @@ Github pages depolyment
 - Twitter: [@iamasum369](https://twitter.com/iamasum369)
 - LinkedIn: [AsumVictorDev](https://linkedin.com/in/asumvictordev)
 
+👤 **Haben Mehari**
+
+- GitHub: [@habitoz](https://github.com/habitoz)
+- Linkedin: [@habitoz](https://www.linkedin.com/in/haben-mehari-593531140)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
