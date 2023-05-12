@@ -127,6 +127,7 @@ h1 {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  background-position-x: 0.5rem;
   gap: 24px;
   height: 1522px;
   border-radius: 0;
@@ -238,8 +239,6 @@ h1 {
 }
 
 #form button {
-  width: 129px;
-  height: 48px;
   border: none;
   background-color: #36b37f;
   color: white;
