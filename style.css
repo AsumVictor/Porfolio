@@ -127,6 +127,7 @@ h1 {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  background-position-x: 0.5rem;
   gap: 24px;
   height: 1522px;
   border-radius: 0;
@@ -238,8 +239,6 @@ h1 {
 }
 
 #form button {
-  width: 129px;
-  height: 48px;
   border: none;
   background-color: #36b37f;
   color: white;
@@ -252,6 +251,14 @@ h1 {
   text-align: center;
   border-radius: 4px;
   padding: 12px;
+}
+
+#form button:active {
+  background-color: #008552;
+}
+
+#about-me button:active {
+  background-color: #008552;
 }
 
 .card {
