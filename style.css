@@ -521,7 +521,6 @@ h1 {
     grid-auto-rows: auto;
   }
 
-
   #contact-section {
     display: flex;
     justify-content: center;
@@ -587,8 +586,6 @@ h1 {
     font-weight: 700;
     font-family: 'Inter', sans-serif;
   }
-
-
 
   footer {
     display: flex;
