@@ -47,10 +47,7 @@
 - **About me section which contains information about me including resume**
 - **Contact form**
 - **Footer**
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-The project has not been deployed yet. 
+ 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -76,7 +73,10 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Nothing to install here
+run 
+```sh
+  npm install
+```
 
 ### Usage
 
@@ -84,7 +84,10 @@ Open the index.html file in your favorite web browser
 
 ### Run tests
 
-Nothing to run
+```test
+npx hint .
+npx stylelint "**/*.{css,scss}"
+```
 
 ### Deployment
 
