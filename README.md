@@ -41,13 +41,13 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Navigation bar with Logo**
-- **Hero section and Social media links**
-- **Work section: It contains my recent works**
-- **About me section which contains information about me including resume**
-- **Contact form**
-- **Footer**
- 
+- **Responsive mobile menu**
+- **A list of my projects in a card form**
+
+## Live demo <a name="key-features"></a>
+
+I have deployed the project of github. [Click to view the online version of my project](https://asumvictor.github.io/Porfolio/)
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 

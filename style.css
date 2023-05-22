@@ -286,6 +286,28 @@ h1 {
   border: 1px solid #d0d9d4;
 }
 
+.card:hover {
+  animation: Scale-Animation 0.5s;
+}
+
+@keyframes Scale-Animation {
+  0% {
+    transform: scale(0.95);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  75% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .skill-card {
   width: 327px;
   overflow: hidden;
@@ -301,6 +323,10 @@ h1 {
   left: 0;
   top: 1px;
   border-radius: 0;
+}
+
+.skill-card:hover {
+  animation: Scale-Animation 0.5s;
 }
 
 .image-placeholder {
