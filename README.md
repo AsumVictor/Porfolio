@@ -112,13 +112,18 @@ Github pages depolyment
 - GitHub: [@habitoz](https://github.com/habitoz)
 - Linkedin: [@habitoz](https://www.linkedin.com/in/haben-mehari-593531140)
 
+👤 **I belive**
+
+- GitHub: [@ibelieve](https://github.com/habitoz)
+- Linkedin: [@ibelieve](https://www.linkedin.com/in/haben-mehari-593531140)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--  **Toggle navigation**
--  **Able to open each project**
+-  **When user clicks on any of the projects, it opens a modal box containing full details of the projects**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
