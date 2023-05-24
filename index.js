@@ -4,6 +4,9 @@ const mobileMenu = document.querySelector(".mobile-menu");
 const menuClose = document.getElementById("humberger-close");
 const menuLinks = document.querySelectorAll("#mobile-nav li a");
 const projectsContainer = document.querySelector(".project-container");
+const modalBox = document.querySelector(".project-modal-box");
+const close_modal = document.getElementById("modal-close");
+
 //Projects Data
 let project_data = [
   {
@@ -98,4 +101,17 @@ project_data.forEach((project, index) => {
   projectwrap.setAttribute("class", `card`);
   projectwrap.innerHTML = project_content;
   projectsContainer.appendChild(projectwrap);
+
 });
+
+document.addEventListener('click',(e)=>{
+  if(e.target.classList.contains("project-action")) {
+    modalBox.classList.add('show')
+    document.body.style.overflow = "hidden";
+  }
+})
+
+close_modal.addEventListener('click',(e)=>{
+    modalBox.classList.remove('show')
+    document.body.style.overflow = "scroll";
+})
