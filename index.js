@@ -5,7 +5,7 @@ const menuClose = document.getElementById('humberger-close');
 const menuLinks = document.querySelectorAll('#mobile-nav li a');
 const projectsContainer = document.querySelector('.project-container');
 
-// List of Project Data
+// List of Project data
 const projectData = [
   {
     name: 'Multi-Post Stories Gain+Glory',
@@ -148,11 +148,49 @@ document.addEventListener('click', (e) => {
 document.querySelector('#submit-btn').addEventListener('click', (e) => {
   const email = document.getElementById('email').value;
   const error = document.querySelector('.email-error-message');
-  if (email !== email.toLowerCase()){
+  if (email !== email.toLowerCase()) {
     e.preventDefault();
-    error.classList.add('show')
+    error.classList.add('show');
     setTimeout(() => {
-      error.classList.remove('show')
+      error.classList.remove('show');
     }, 4000);
   }
+});
+
+// Save data into localStorage
+const form = document.getElementById('form');
+const [fullName, firstName, lastName, email, message] = form.elements;
+
+if (!localStorage.getItem('formData')) {
+  const contactFormData = {
+    fullName: '', firstName: '', lastName: '', email: '', message: '',
+  };
+  localStorage.setItem('formData', JSON.stringify(contactFormData));
+}
+
+const saveDataToLocalStorage = (element, elementValue) => {
+  element.addEventListener('change', () => {
+    const getDataFromStorage = JSON.parse(localStorage.getItem('formData'));
+    getDataFromStorage[elementValue] = element.value;
+    localStorage.setItem('formData', JSON.stringify(getDataFromStorage));
+  });
+};
+
+const setDataInFormFields = (element, elementValue) => {
+  element.value = elementValue;
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  saveDataToLocalStorage(fullName, 'fullName');
+  saveDataToLocalStorage(firstName, 'firstName');
+  saveDataToLocalStorage(lastName, 'lastName');
+  saveDataToLocalStorage(email, 'email');
+  saveDataToLocalStorage(message, 'message');
+
+  const contactFormData = JSON.parse(localStorage.getItem('formData'));
+  setDataInFormFields(firstName, contactFormData.firstName);
+  setDataInFormFields(email, contactFormData.email);
+  setDataInFormFields(message, contactFormData.message);
+  setDataInFormFields(lastName, contactFormData.lastName);
+  setDataInFormFields(fullName, contactFormData.fullName);
 });
