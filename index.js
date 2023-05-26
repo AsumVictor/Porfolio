@@ -5,7 +5,7 @@ const menuClose = document.getElementById('humberger-close');
 const menuLinks = document.querySelectorAll('#mobile-nav li a');
 const projectsContainer = document.querySelector('.project-container');
 
-// Projects Data
+// List of Project Data
 const projectData = [
   {
     name: 'Multi-Post Stories Gain+Glory',
@@ -77,7 +77,7 @@ menuLinks.forEach((menuLink) => {
   });
 });
 
-// Display Projects
+// To Display Projects
 document.addEventListener('DOMContentLoaded', () => {
   projectData.forEach((project) => {
     const projectContent = `
