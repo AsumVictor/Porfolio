@@ -108,7 +108,7 @@ button:active {
 }
 
 #mobile-nav li a {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 44px;
@@ -123,54 +123,10 @@ h1 {
   line-height: 52px;
   vertical-align: top;
   padding: 20px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   letter-spacing: 0;
   text-align: center;
-}
-
-.linksButtons li > button {
-  left: 0;
-  top: 0;
-  border-radius: 8px;
-  padding: 12px;
-  background-color: #36b37e;
-  outline: none;
-  border: 0;
-  font-family: "Inter", sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-align: center;
-  color: white;
-}
-
-.modal p {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0;
-  text-align: left;
-  margin-top: 36px;
-}
-
-.title ul li > button {
-  left: 0;
-  top: 0;
-  border-radius: 8px;
-  padding: 12px;
-  background-color: #36b37e;
-  outline: none;
-  border: 0;
-  font-family: "Inter", sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-align: center;
-  color: white;
 }
 
 #hero-section {
@@ -182,7 +138,7 @@ h1 {
 }
 
 #hero-text {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -203,7 +159,7 @@ h1 {
   font-size: 40px;
   color: #172b4d;
   padding: 30px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
@@ -235,7 +191,7 @@ h1 {
 #about-me h2 {
   font-size: 40px;
   color: #172b4d;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
@@ -246,7 +202,7 @@ h1 {
   font-size: 18px;
   color: #42526e;
   padding: 0 20px 0 20px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0;
@@ -261,7 +217,7 @@ h1 {
   border: 0;
   border-radius: 4px;
   padding: 12px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
@@ -281,7 +237,7 @@ h1 {
 
 #about-me-skills h4 {
   color: #344563;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
@@ -290,7 +246,7 @@ h1 {
 }
 
 #contact-section {
-  background-image: url("./images/Frame.png");
+  background-image: url('./images/Frame.png');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -308,7 +264,7 @@ h1 {
   padding: 0 25px 0 25px;
   width: 100%;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 52px;
@@ -343,7 +299,7 @@ h1 {
   background-color: #36b37f;
   color: white;
   align-self: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
@@ -449,7 +405,7 @@ h1 {
   padding: 0 10px 0 10px;
   margin-top: 5px;
   font-family: "Inter", sans-serif;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
@@ -587,124 +543,7 @@ h1 {
   text-transform: capitalize;
 }
 
-.project-modal-box {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 99;
-  background-color: #c1c7d0c9;
-  position: fixed;
-  padding: 1rem;
-  display: none;
-  align-items: center;
-  flex-direction: column;
-  overflow-y: auto;
-}
-
-.project-modal-box.show {
-  display: flex;
-}
-
-#modal-close {
-  align-self: flex-end;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  height: 40px;
-  cursor: pointer;
-  width: 40px;
-  border-radius: 8px;
-  padding: 8px;
-  background-color: transparent;
-  font-size: 2rem;
-  position: absolute;
-  margin-top: 1.6rem;
-}
-
-.modal {
-  padding: 1rem;
-  background-color: rgb(255, 255, 255);
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 8px;
-}
-
-.modal img {
-  height: 220px;
-  width: 100%;
-  border-radius: 8px;
-  margin-top: 14px;
-}
-
-.title {
-  display: flex;
-  justify-content: flex-start;
-  width: 100%;
-  margin-top: 24px;
-}
-
-.title h3 {
-  font-family: "Inter", sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: left;
-  width: 100%;
-}
-
-.title ul {
-  display: none;
-}
-
-.linksButtons {
-  gap: 12px;
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;
-  width: 100%;
-  padding-left: 0;
-  margin-top: 12px;
-}
-
-.tag-language-container-modal {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 8px;
-  width: 100%;
-  padding-left: 0;
-  margin-top: 20px;
-}
-
-.tag-language-modal {
-  padding: 8px 12px 8px 12px;
-  background-color: #ebf0ee;
-  color: #3a4a42;
-  border-radius: 4px;
-  font-family: "Inter", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
-
 @media only screen and (min-width: 768px) {
-  .modal p {
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0;
-    text-align: left;
-    margin-top: 36px;
-  }
-
   #hero-section {
     padding-top: 10rem;
     padding-bottom: 20rem;
@@ -732,7 +571,7 @@ h1 {
   }
 
   #about-me {
-    background-image: url("./images/about-me-desktop.png");
+    background-image: url('./images/about-me-desktop.png');
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -768,7 +607,7 @@ h1 {
     gap: 0;
     margin-top: 0;
     padding: 5rem;
-    background-image: url("./images/contact-form-desktop-illustraton.png");
+    background-image: url('./images/contact-form-desktop-illustraton.png');
     background-repeat: no-repeat;
     background-position-y: 13rem;
     background-position-x: 0;
@@ -823,7 +662,7 @@ h1 {
     font-size: 15px;
     color: #344563;
     font-weight: 700;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 
   footer {
@@ -837,108 +676,6 @@ h1 {
   address a {
     display: none;
   }
-
-  .project-modal-box {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 99;
-    background-color: #c1c7d0f5;
-    position: fixed;
-    padding: 1rem;
-    align-items: center;
-    flex-direction: column;
-    overflow-y: auto;
-  }
-
-  #modal-close {
-    align-self: flex-end;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    height: 40px;
-    cursor: pointer;
-    width: 40px;
-    border-radius: 8px;
-    padding: 8px;
-    background-color: #ebecf0;
-    font-size: 2rem;
-    position: relative;
-  }
-
-  .modal {
-    padding: 1rem;
-    background-color: rgb(255, 255, 255);
-    width: 920px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .modal img {
-    height: 616px;
-    width: 100%;
-    border-radius: 8px;
-    margin-top: 14px;
-  }
-
-  .title {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    margin-top: 24px;
-  }
-
-  .title h3 {
-    font-family: "Inter", sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44px;
-    letter-spacing: 0;
-    text-align: left;
-    width: 60%;
-  }
-
-  .title ul {
-    gap: 12px;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    width: 40%;
-  }
-
-  .tag-language-container-modal {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 8px;
-    width: 100%;
-    padding-left: 0;
-    margin-top: 20px;
-  }
-
-  .tag-language-modal {
-    padding: 8px 12px 8px 12px;
-    background-color: #ebf0ee;
-    color: #3a4a42;
-    border-radius: 4px;
-    font-family: "Inter", sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-align: left;
-  }
-
-  .linksButtons {
-    display: none;
-  }
-
-  .hide-desktop {
-    display: none;
-  }
 }
 
 @media only screen and (min-width: 1040px) {
@@ -948,25 +685,5 @@ h1 {
 
   #about-me-skills {
     grid-template-columns: repeat(3, 327px);
-  }
-
-  .modal {
-    padding: 1rem;
-    background-color: rgb(255, 255, 255);
-    width: 920px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media only screen and (max-width: 920px) {
-  .modal {
-    padding: 1rem;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 }
