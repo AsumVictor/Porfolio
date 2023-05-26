@@ -155,6 +155,8 @@ document.querySelector('#submit-btn').addEventListener('click', (e) => {
   }
 });
 
+
+// Save data into localStorage
 const form = document.getElementById('form');
 const [fullName, firstName, lastName, email, message] = form.elements;
 
