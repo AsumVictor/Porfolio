@@ -136,6 +136,7 @@ document.addEventListener('click', (e) => {
   }
 });
 
+// close pop-up modal
 document.addEventListener('click', (e) => {
   if (e.target.id === 'modal-close') {
     projectsContainer.removeChild(projectsContainer.lastChild);
@@ -143,6 +144,7 @@ document.addEventListener('click', (e) => {
   }
 });
 
+// Form Validation control
 document.querySelector('#submit-btn').addEventListener('click', (e) => {
   const email = document.getElementById('email').value;
   const error = document.querySelector('.email-error-message');
@@ -154,7 +156,6 @@ document.querySelector('#submit-btn').addEventListener('click', (e) => {
     }, 4000);
   }
 });
-
 
 // Save data into localStorage
 const form = document.getElementById('form');
