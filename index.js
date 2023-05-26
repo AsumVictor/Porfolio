@@ -142,3 +142,15 @@ document.addEventListener('click', (e) => {
     document.body.style.overflowY = 'scroll';
   }
 });
+
+document.querySelector('#submit-btn').addEventListener('click', (e) => {
+  const email = document.getElementById('email').value;
+  const error = document.querySelector('.email-error-message');
+  if (email !== email.toLowerCase()){
+    e.preventDefault();
+    error.classList.add('show')
+    setTimeout(() => {
+      error.classList.remove('show')
+    }, 4000);
+  }
+});

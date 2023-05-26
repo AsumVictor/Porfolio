@@ -140,7 +140,10 @@
         <input type="email" name="email" id="email" placeholder="Email Address" required>
         <textarea name="message" id="message" cols="30" rows="10" maxlength="500" required
           placeholder="Please type your message here"></textarea>
-        <button type="submit">Get in touch</button>
+          <div class="email-error-message">
+            Email address should be in lower case *
+          </div>
+        <button type="submit" id="submit-btn">Get in touch</button>
       </form>
     </section>
     <hr class="horizontal-line" />
