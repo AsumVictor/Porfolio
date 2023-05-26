@@ -129,7 +129,7 @@ h1 {
   text-align: center;
 }
 
-.linksButtons li > button {
+.linksButtons li a > button {
   left: 0;
   top: 0;
   border-radius: 8px;
@@ -156,7 +156,7 @@ h1 {
   margin-top: 36px;
 }
 
-.title ul li > button {
+.title ul li a > button {
   left: 0;
   top: 0;
   border-radius: 8px;
@@ -363,6 +363,16 @@ h1 {
 
 #about-me button:active {
   background-color: #008552;
+}
+
+.email-error-message {
+  font-size: 18px;
+  color: red;
+  display: none;
+}
+
+.email-error-message.show {
+  display: block;
 }
 
 .horizontal-line {
@@ -665,7 +675,7 @@ h1 {
   gap: 12px;
   list-style: none;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   padding-left: 0;
   margin-top: 12px;

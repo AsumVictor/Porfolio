@@ -9,71 +9,71 @@ const projectsContainer = document.querySelector('.project-container');
 const projectData = [
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: '',
-    featuredImage: '',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    featuredImage: './images/Snapshoot Portfolio.png',
     technologies: ['Ruby on Rail', 'HTML', 'CSS', 'JavaScript'],
-    linkToLive: '',
-    linkToSource: '',
+    linkToLive: 'https://asumvictor.github.io/Porfolio',
+    linkToSource: 'https://github.com/AsumVictor/Porfolio',
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: '',
-    featuredImage: '',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    featuredImage: './images/Snapshoot Portfolio.png',
     technologies: ['Ruby on Rail', 'HTML', 'CSS', 'JavaScript'],
-    linkToLive: '',
-    linkToSource: '',
+    linkToLive: 'https://asumvictor.github.io/Porfolio/',
+    linkToSource: 'https://github.com/AsumVictor/Porfolio',
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: '',
-    featuredImage: '',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    featuredImage: './images/Snapshoot Portfolio.png',
     technologies: ['Ruby on Rail', 'HTML', 'CSS', 'JavaScript'],
-    linkToLive: '',
-    linkToSource: '',
+    linkToLive: 'https://asumvictor.github.io/Porfolio/',
+    linkToSource: 'https://github.com/AsumVictor/Porfolio',
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: '',
-    featuredImage: '',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    featuredImage: './images/Snapshoot Portfolio.png',
     technologies: ['Ruby on Rail', 'HTML', 'CSS', 'JavaScript'],
-    linkToLive: '',
-    linkToSource: '',
+    linkToLive: 'https://asumvictor.github.io/Porfolio/',
+    linkToSource: 'https://github.com/AsumVictor/Porfolio',
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: '',
-    featuredImage: '',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    featuredImage: './images/Snapshoot Portfolio.png',
     technologies: ['Ruby on Rail', 'HTML', 'CSS', 'JavaScript'],
-    linkToLive: '',
-    linkToSource: '',
+    linkToLive: 'https://asumvictor.github.io/Porfolio/',
+    linkToSource: 'https://github.com/AsumVictor/Porfolio',
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: '',
-    featuredImage: '',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    featuredImage: './images/Snapshoot Portfolio.png',
     technologies: ['Ruby on Rail', 'HTML', 'CSS', 'JavaScript'],
-    linkToLive: '',
-    linkToSource: '',
+    linkToLive: 'https://asumvictor.github.io/Porfolio/',
+    linkToSource: 'https://github.com/AsumVictor/Porfolio',
   },
 ];
 
 // Add event-listener tot the hamburger
 menuToggler.addEventListener('click', () => {
   mobileMenu.classList.add('openMenu');
-  document.body.style.overflow = 'hidden';
+  document.body.style.overflowY = 'hidden';
 });
 
 // Close event=listener
 menuClose.addEventListener('click', () => {
   mobileMenu.classList.remove('openMenu');
-  document.body.style.overflow = 'scroll';
+  document.body.style.overflowY = 'scroll';
 });
 
 // Link each section of the paage
 menuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', () => {
     mobileMenu.classList.remove('openMenu');
-    document.body.style.overflow = 'scroll';
+    document.body.style.overflowY = 'scroll';
   });
 });
 
@@ -113,8 +113,8 @@ document.addEventListener('click', (e) => {
         <div class="title">
           <h3>Keeping track of hundreds of components</h3>
           <ul>
-            <li> <button type="button">See live <i class="fa-solid fa-arrow-up-right-from-square"></i></i></button></li>
-            <li><button type="button">See source <i class="fa fa-github"></i> </button></li>
+            <li> <a href='https://asumvictor.github.io/Porfolio'> <button type="button">See live <i class="fa-solid fa-arrow-up-right-from-square"></i></i></button> </a></li>
+            <li> <a href='https://asumvictor.github.io/Porfolio/'> <button type="button">See source <i class="fa fa-github"></i> </button> </a> </li>
           </ul>
         </div>
         <ul class="tag-language-container-modal list-style-none ">
@@ -123,22 +123,36 @@ document.addEventListener('click', (e) => {
           <li class="tag-language-modal">JavaScript</li>
         </ul>
         <p  >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
-        <p  class="hide-desktop">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+        
         <ul class="linksButtons">
-          <li> <button type="button">See live <i class="fa-solid fa-arrow-up-right-from-square"></i></i> </button></li>
-          <li><button type="button">See source <i class="fa fa-github"></i> </button></li>
+          <li> <a href='https://asumvictor.github.io/Porfolio'> <button type="button">See live <i class="fa-solid fa-arrow-up-right-from-square"></i></i> </button></a></li>
+          <li> <a href='https://github.com/AsumVictor/Porfolio'> <button type="button">See source <i class="fa fa-github"></i> </button> </a> </li>
         </ul>
       </div>
     `;
     modalBox.innerHTML = modalContent;
     projectsContainer.appendChild(modalBox);
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflowY = 'hidden';
   }
 });
 
+// close pop-up modal
 document.addEventListener('click', (e) => {
   if (e.target.id === 'modal-close') {
     projectsContainer.removeChild(projectsContainer.lastChild);
-    document.body.style.overflow = 'scroll';
+    document.body.style.overflowY = 'scroll';
+  }
+});
+
+// Form Validation control
+document.querySelector('#submit-btn').addEventListener('click', (e) => {
+  const email = document.getElementById('email').value;
+  const error = document.querySelector('.email-error-message');
+  if (email !== email.toLowerCase()){
+    e.preventDefault();
+    error.classList.add('show')
+    setTimeout(() => {
+      error.classList.remove('show')
+    }, 4000);
   }
 });
