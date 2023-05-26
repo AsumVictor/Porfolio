@@ -365,12 +365,13 @@ h1 {
   background-color: #008552;
 }
 
-.email-error-message{
+.email-error-message {
   font-size: 18px;
   color: red;
   display: none;
 }
-.email-error-message.show{
+
+.email-error-message.show {
   display: block;
 }
 
